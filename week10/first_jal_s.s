@@ -1,9 +1,8 @@
 .global first_jal_s.s
-
 main:    
     li a0, 1
     li a1, 2
-    jal first_s
+    jal first_jal_s
     unimp
 first_jal_s:
     add a0, a0, a1
